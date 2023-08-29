@@ -6,10 +6,9 @@ def palabra_al_reves(palabra):
     return palabra_reves
 
 
-
 def ohce ( frase ):
 
-    nombre= "Sin nombre"
+    nombre= "michael"
     if frase.split()[0]!=frase and frase.split()[0]=="ohce":
         nombre = frase.split()[1]
         hora_actual = datetime.datetime.now().time()
@@ -27,12 +26,12 @@ def ohce ( frase ):
     if(frase==""):
         return ("palabra vacia")
     
-   
+    if(frase=="Stop!"):
+        return("Adios "+nombre)
     
     return(palabra_al_reves(frase))
     
 
         
     
-
 
