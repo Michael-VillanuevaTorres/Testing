@@ -1,10 +1,11 @@
 import datetime
 
 
+
 def ohce ( frase ):
 
-
-    if frase.split()[0]=="ohce":
+    nombre= "Sin nombre"
+    if frase.split()[0]!=frase and frase.split()[0]=="ohce":
         nombre = frase.split()[1]
         hora_actual = datetime.datetime.now().time()
         if hora_actual >= datetime.time(6) and hora_actual < datetime.time(12):
@@ -15,6 +16,8 @@ def ohce ( frase ):
             return "¡Buenas noches "+nombre+" !"
     
 
+    
+    
 
         
     
