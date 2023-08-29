@@ -18,6 +18,10 @@ def ohce ( frase ):
         else:
             return "¡Buenas noches "+nombre+" !"
     
+
+    if(palabra_al_reves(frase)==frase):
+        return(palabra_al_reves(frase)+'\n'+"¡Bonita palabra!")
+    
     return(palabra_al_reves(frase))
     
 
