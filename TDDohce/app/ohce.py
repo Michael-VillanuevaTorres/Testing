@@ -5,6 +5,8 @@ def palabra_al_reves(palabra):
     palabra_reves = palabra[::-1]
     return palabra_reves
 
+
+
 def ohce ( frase ):
 
     nombre= "Sin nombre"
@@ -25,6 +27,7 @@ def ohce ( frase ):
     if(frase==""):
         return ("palabra vacia")
     
+   
     
     return(palabra_al_reves(frase))
     

@@ -10,3 +10,5 @@ def test_ohce():
     assert ohce("ohce") == "echo"
     assert ohce("ohw") == "who"
     assert ohce("oto") == "oto"+"\n"+"¡Bonita palabra!"
+    assert ohce("Stop!") == "Adios michael"
+
