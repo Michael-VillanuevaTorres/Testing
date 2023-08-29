@@ -1,6 +1,9 @@
 import datetime
 
 
+def palabra_al_reves(palabra):
+    palabra_reves = palabra[::-1]
+    return palabra_reves
 
 def ohce ( frase ):
 
@@ -15,8 +18,7 @@ def ohce ( frase ):
         else:
             return "¡Buenas noches "+nombre+" !"
     
-
-    
+    return(palabra_al_reves(frase))
     
 
         
