@@ -22,6 +22,10 @@ def ohce ( frase ):
     if(palabra_al_reves(frase)==frase):
         return(palabra_al_reves(frase)+'\n'+"¡Bonita palabra!")
     
+    if(frase==""):
+        return ("palabra vacia")
+    
+    
     return(palabra_al_reves(frase))
     
 
